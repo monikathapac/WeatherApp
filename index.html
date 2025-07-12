@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" />
+<title>Weather Today</title>
+</head>
+<body>
+    <div class="weather_body">
+        <div class="container1">
+            <form class="search_form">
+                <div class="wrapper">
+                    <input class="search_input" type="text" placeholder="Enter city here" />
+                    <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                </div>
+            </form>
+            <div class="weather_place"></div>
+            <div class="date_time"></div>
+            <div class="two">
+                <div class="weather_temperature"></div>
+                <div class="main_weather"></div>
+            </div>
+            <div class="icon"><img src="" alt="icon"></img></div>
+        </div>
+        <div class="container2">
+            <div id="box">
+                <i class="fa-solid fa-droplet"></i>
+                <span>
+                    <div> humidity </div>
+                    <div class=weather_humidity> </div>
+                </span>
+            </div>
+
+            <div id="box">
+                <i class="fa-solid fa-wind "></i>
+                <span>
+                    <div>wind speed </div>
+                    <div class=wind_speed></div>
+                </span>
+            </div>
+            <div id="box">
+                <i class="fa-solid fa-temperature-arrow-up "></i>
+                <span>
+                    <div>Maximum temp </div>
+                    <div class=temp_max></div>
+                </span>
+            </div>
+            <div id="box">
+                <i class="fa-solid fa-temperature-arrow-down "></i>
+                <span>
+                    <div>Minimum temp</div>
+                    <div class=temp_min></div>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="index1.js"></script>
+</body>
+
+</html>
