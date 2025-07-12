@@ -29,7 +29,7 @@ const showName = (code) => {
 };
 
 const getWeatherData = async () => {
-  const url = `htthps://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=1cadd2fd8bd256b2cedd5acd69acb315`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=1cadd2fd8bd256b2cedd5acd69acb315`;
   try {
     const response = await fetch(url);
     const data = await response.json();
